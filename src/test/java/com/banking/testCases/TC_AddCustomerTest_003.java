@@ -1,13 +1,9 @@
 package com.banking.testCases;
 
 import java.io.IOException;
-
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import com.banking.pageObjects.AddCustomerPage;
 import com.banking.pageObjects.LoginPage;
 
@@ -21,15 +17,15 @@ public class TC_AddCustomerTest_003 extends BaseClass {
 		lp.setPassword(Password);
 		logger.info("Password is provided");
 		lp.clickLogin();
-		driver.manage().window().maximize();
-		
+
 		AddCustomerPage addcust = new AddCustomerPage(driver);
-		Thread.sleep(3000);
+
 		addcust.clickAddNewUser();
+		captureScreen(driver, "addNewCustomer");
+		Assert.assertTrue(false);
 
 		logger.info("Providing a customer details.....");
 		driver.findElement(By.id("dismiss-button")).click();
-		Thread.sleep(10000);
 
 		addcust.custName("janvi");
 		addcust.custGender("female");
@@ -40,12 +36,11 @@ public class TC_AddCustomerTest_003 extends BaseClass {
 		addcust.custcity("GJ");
 		addcust.custpinno("541009");
 		addcust.custtelephone("8754123657");
-		String email = randomeString() + "@gmail.com";
+		String email = randomString() + "@gmail.com";
 		addcust.custemailid(email);
 		addcust.custpassword("abcdety");
 		addcust.custsubmit();
 
-		Thread.sleep(3000);
 		logger.info("validation is started");
 		boolean res = driver.getPageSource().contains("Customer Registered Successfully!!!");
 		if (res == true) {

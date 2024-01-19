@@ -18,8 +18,7 @@
 
 	<!-- Plugins required for excuting tescases from pom.xml file-->
 	<build>
-		<pluginManagement><!-- lock down plugins versions to avoid using Maven
-			defaults (may be moved to parent pom) -->
+		<pluginManagement>
 			<plugins>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
@@ -82,18 +81,25 @@
 		</dependency>
 
 
+		<!--  apache POI is used to handle the MS office files using the java
+		program-->
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml</artifactId>
 			<version>3.17</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 		<dependency>
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>
-			<version>3.1.2</version>
+			<version>5.0.9</version>
 		</dependency>
 
+
+		<!-- org.apache.commons contains utility classes, stream
+		implementations, file filters, file comparators, endian transformation
+		classes-->
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>

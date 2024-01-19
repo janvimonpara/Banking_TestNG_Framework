@@ -43,7 +43,9 @@ public class BaseClass {
 			System.setProperty("webdriver.gecko.driver", readconfig.getFirfoxPath());
 			driver = new FirefoxDriver();
 		}
-		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);// WebDriver will wait up to 10 seconds if its
+																		// not found then throwing a Exception.
+		driver.manage().window().maximize();
 		driver.get(baseUrl);
 	}
 
@@ -60,15 +62,15 @@ public class BaseClass {
 		FileUtils.copyFile(source, target);
 		System.out.println("Screenshot taken");
 	}
-	
-	public String randomeString() {// method for generating randome email for testing
+
+	public String randomString() {// method for generating random email for (DataDriven) or other testing
 		String generatedstring = RandomStringUtils.randomAlphabetic(8);// generate 8 character string
 		return generatedstring;
 	}
 
-	public String randomnumber() { //method for generating randome number for testing
-		String genratedNumber= RandomStringUtils.randomNumeric(4);
-				return genratedNumber;
+	public String randomnumber() { // method for generating random number for (DataDriven) or other testing
+		String genratedNumber = RandomStringUtils.randomNumeric(4);
+		return genratedNumber;
 	}
 
 }
