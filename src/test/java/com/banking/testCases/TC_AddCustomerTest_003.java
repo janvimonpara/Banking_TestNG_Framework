@@ -1,7 +1,10 @@
 package com.banking.testCases;
 
 import java.io.IOException;
+import java.time.Duration;
 import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import com.banking.pageObjects.AddCustomerPage;
@@ -17,7 +20,10 @@ public class TC_AddCustomerTest_003 extends BaseClass {
 		lp.setPassword(Password);
 		logger.info("Password is provided");
 		lp.clickLogin();
-
+		
+		wait = new WebDriverWait(driver, Duration.ofSeconds(5));//explicit wait
+		wait.until(ExpectedConditions.titleIs("Guru99 Bank Manager HomePage1")) ;
+		
 		AddCustomerPage addcust = new AddCustomerPage(driver);
 
 		addcust.clickAddNewUser();

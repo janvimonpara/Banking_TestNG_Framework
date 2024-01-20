@@ -2,8 +2,6 @@ package com.banking.testCases;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.concurrent.TimeUnit;
-
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.log4j.Logger;
@@ -13,6 +11,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -28,6 +27,7 @@ public class BaseClass {
 	public String Password = readconfig.getPassword();
 	public static WebDriver driver;
 	public static Logger logger;
+	public WebDriverWait wait;
 
 	@Parameters("browser")
 	@BeforeClass
@@ -43,8 +43,12 @@ public class BaseClass {
 			System.setProperty("webdriver.gecko.driver", readconfig.getFirfoxPath());
 			driver = new FirefoxDriver();
 		}
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);// WebDriver will wait up to 10 seconds if its
-																		// not found then throwing a Exception.
+
+		
+
+		// driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));//
+		// WebDriver will wait up to 10 seconds if its
+		// not found then throwing a Exception.
 		driver.manage().window().maximize();
 		driver.get(baseUrl);
 	}

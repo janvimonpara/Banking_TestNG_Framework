@@ -21,3 +21,51 @@
 2024-01-18 22:42:24,726 [main] INFO Banking_TestNG_Framework - Password is provided
 2024-01-18 22:44:10,884 [main] INFO Banking_TestNG_Framework - User name is provided
 2024-01-18 22:44:11,027 [main] INFO Banking_TestNG_Framework - Password is provided
+2024-01-19 16:10:09,491 [main] INFO Banking_TestNG_Framework - User name is provided
+2024-01-19 16:10:09,631 [main] INFO Banking_TestNG_Framework - Password is provided
+2024-01-19 16:11:24,962 [main] INFO Banking_TestNG_Framework - User name is provided
+2024-01-19 16:11:25,188 [main] INFO Banking_TestNG_Framework - Password is provided
+2024-01-19 16:44:27,228 [main] INFO Banking_TestNG_Framework - User name is provided
+2024-01-19 16:44:27,414 [main] INFO Banking_TestNG_Framework - Password is provided
+2024-01-19 16:44:28,170 [main] INFO Banking_TestNG_Framework - Condition satisfied
+2024-01-19 16:44:28,171 [main] INFO Banking_TestNG_Framework - Condition not satisfied
+2024-01-19 18:01:10,450 [main] INFO Banking_TestNG_Framework - User name is provided
+2024-01-19 18:01:10,539 [main] INFO Banking_TestNG_Framework - Password is provided
+2024-01-19 18:02:26,421 [main] INFO Banking_TestNG_Framework - User name is provided
+2024-01-19 18:02:26,535 [main] INFO Banking_TestNG_Framework - Password is provided
+2024-01-19 18:02:27,135 [main] INFO Banking_TestNG_Framework - Condition satisfied
+2024-01-19 18:03:31,668 [main] INFO Banking_TestNG_Framework - User name is provided
+2024-01-19 18:03:31,834 [main] INFO Banking_TestNG_Framework - Password is provided
+2024-01-19 18:07:17,051 [main] INFO Banking_TestNG_Framework - User name is provided
+2024-01-19 18:07:17,263 [main] INFO Banking_TestNG_Framework - Password is provided
+2024-01-19 18:09:13,490 [main] INFO Banking_TestNG_Framework - User name is provided
+2024-01-19 18:09:13,602 [main] INFO Banking_TestNG_Framework - Password is provided
+2024-01-19 18:33:58,942 [main] INFO Banking_TestNG_Framework - URL is Opened
+2024-01-19 18:33:59,347 [main] INFO Banking_TestNG_Framework - Entered UserName
+2024-01-19 18:33:59,532 [main] INFO Banking_TestNG_Framework - Entered Password
+2024-01-19 18:33:59,777 [main] INFO Banking_TestNG_Framework - login fail
+2024-01-19 18:34:43,885 [main] INFO Banking_TestNG_Framework - URL is Opened
+2024-01-19 18:34:44,205 [main] INFO Banking_TestNG_Framework - Entered UserName
+2024-01-19 18:34:44,436 [main] INFO Banking_TestNG_Framework - Entered Password
+2024-01-19 18:35:43,497 [main] INFO Banking_TestNG_Framework - URL is Opened
+2024-01-19 18:35:43,831 [main] INFO Banking_TestNG_Framework - Entered UserName
+2024-01-19 18:35:44,012 [main] INFO Banking_TestNG_Framework - Entered Password
+2024-01-19 18:36:17,100 [main] INFO Banking_TestNG_Framework - URL is Opened
+2024-01-19 18:36:17,364 [main] INFO Banking_TestNG_Framework - Entered UserName
+2024-01-19 18:36:17,566 [main] INFO Banking_TestNG_Framework - Entered Password
+2024-01-19 18:36:52,204 [main] INFO Banking_TestNG_Framework - URL is Opened
+2024-01-19 18:36:52,608 [main] INFO Banking_TestNG_Framework - Entered UserName
+2024-01-19 18:36:52,753 [main] INFO Banking_TestNG_Framework - Entered Password
+2024-01-19 20:13:23,311 [main] INFO Banking_TestNG_Framework - URL is Opened
+2024-01-19 20:13:23,558 [main] INFO Banking_TestNG_Framework - Entered UserName
+2024-01-19 20:13:23,670 [main] INFO Banking_TestNG_Framework - Entered Password
+2024-01-19 20:19:11,139 [main] INFO Banking_TestNG_Framework - user name provided
+2024-01-19 20:19:11,351 [main] INFO Banking_TestNG_Framework - password provided
+2024-01-19 20:19:15,273 [main] INFO Banking_TestNG_Framework - Login passed
+2024-01-19 20:19:19,763 [main] INFO Banking_TestNG_Framework - user name provided
+2024-01-19 20:19:19,913 [main] INFO Banking_TestNG_Framework - password provided
+2024-01-19 20:19:24,196 [main] INFO Banking_TestNG_Framework - user name provided
+2024-01-19 20:19:24,307 [main] INFO Banking_TestNG_Framework - password provided
+2024-01-19 20:19:28,317 [main] INFO Banking_TestNG_Framework - user name provided
+2024-01-19 20:19:28,399 [main] INFO Banking_TestNG_Framework - password provided
+2024-01-19 20:19:32,171 [main] INFO Banking_TestNG_Framework - Login passed
